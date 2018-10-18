@@ -8,3 +8,13 @@ See the S4 manual, in doc/index.html, for a complete
 description of the package and its user interface, as well as
 installation instructions, the license and copyright, contact
 addresses, and other important information.
+
+
+Python version works fine by 
+git clone https://github.com/phoebe-p/S4.git
+cd S4
+make
+sudo make S4_pyext
+sudo python setup.py install
+
+(from https://github.com/victorliu/S4/issues/61)
